@@ -998,7 +998,7 @@ ul .sixthPoint {
 
     .instruction {
         background-color: #f1f2f2;
-        height: 104vw;
+        height: 120vw;
         margin: -2vw 0vw;
         overflow: hidden;
     }
@@ -1030,17 +1030,17 @@ ul .sixthPoint {
     }
 
     .instruction .threeSteps #firstStep {
-        width: 58vw;
+        width: 70vw;
         content: url("./images/grafika_4mobile.png");
     }
     
     .instruction .threeSteps #secondStep {
-        width: 58vw;
+        width: 70vw;
         content: url("./images/grafika_5mobile.png");
     }
     
     .instruction .threeSteps #thirdStep {
-        width: 58vw;
+        width: 70vw;
         content: url("./images/grafika_6mobile.png");
     }
 
