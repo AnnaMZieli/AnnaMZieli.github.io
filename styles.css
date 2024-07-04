@@ -1,6 +1,8 @@
+@import url(https://use.typekit.net/aut2ygo.css);
+
+
 /* Default styles */
 
-@import url(https://use.typekit.net/izq1byo.css);
 
 :root {
     --pink: #eb008c;
@@ -881,7 +883,7 @@ ul .sixthPoint {
     .mainBox #mainButton {
         padding: 0.4em 1em;
         float: left;
-        margin-top: 84vw;
+        margin-top: 87vw;
         margin-left: 8.8vw;
     }
 
@@ -1061,7 +1063,7 @@ ul .sixthPoint {
         width: 36vw;
         background-size: 100%;
         background-repeat: no-repeat;
-        margin: 106vw 4vw 4vw 0;
+        margin: 110vw 4vw 4vw 0;
         background-color: transparent;
     }
 
@@ -1071,7 +1073,7 @@ ul .sixthPoint {
         width: 36vw;
         background-size: 100%;
         background-repeat: no-repeat;
-        margin: 106vw 4vw 4vw 0;
+        margin: 110vw 4vw 4vw 0;
         background-color: transparent;
     }
 
