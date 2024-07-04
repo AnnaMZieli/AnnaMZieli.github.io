@@ -1,11 +1,6 @@
-/* @font-face {
-    font-family: "myriad-pro", sans-serif, arial;
-    font-weight: 300;
-    font-style: normal;
-    src: url();
-} */
-
 /* Default styles */
+
+@import url(https://use.typekit.net/izq1byo.css);
 
 :root {
     --pink: #eb008c;
@@ -18,26 +13,14 @@
 body {
     margin:0;
     padding: 0;
+    font-family: "myriad-pro", sans-serif, arial;
 }
 
-button {
-    font-family: "myriad-pro", sans-serif, arial;
-    font-style: normal;
-    font-weight: 700;
-    border: none;  
-    cursor: pointer;
-    font-size: 1.4vw;
-}
-
-/* h1, h2, h3, h4 {
-    font-family: "myriad-pro", sans-serif, arial;
-    font-style: normal;
-} */
 
 h1, h2 {
     font-family: "myriad-pro", sans-serif, arial;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 2.8vw;
     margin:0;
     padding:0;
@@ -93,6 +76,16 @@ p {
     display: flex;
     justify-content:center;
 }
+
+button {
+    font-family: "myriad-pro", sans-serif, arial;
+    font-style: normal;
+    font-weight: 700;
+    border: none;  
+    cursor: pointer;
+    font-size: 1.4vw;
+}
+
 
 .mainBox {
     background-image: url('./images/Grafika_1.png');
@@ -210,7 +203,7 @@ ul .thirdPoint {
     background-image: url('./images/image_vip_benefit.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 40vw;
+    height: 42vw;
     margin: 0vw 6vw 4vw 6vw;
 }
 
@@ -282,23 +275,48 @@ ul .sixthPoint {
 
 .benefitsVip #vipstatus {
     margin-top: 3vw;
-    /* margin-left: 6vw; */
-}
-
-.instruction {
-    background-image: url('./images/phones_gray.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 46vw;
-    margin: 2vw 0vw;
 }
 
 .instruction h2 {
     padding: 2vw 6vw;
 }
 
-.instruction img {
-    content: url("/images/grafika_8.png");
+.instruction {
+    background-color: #f1f2f2;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: left top;
+    height: 50vw;
+    margin: -2vw 0vw;
+    white-space: nowrap;
+}
+
+.instruction .threeSteps {
+    margin: 2vw 6vw 2vw 6vw;
+    justify-content: center;
+    display: flex;
+}
+
+
+.instruction .threeSteps .phoneImage {
+    display: inline-block;
+}
+
+.instruction .threeSteps #firstStep {
+    width: 27.5vw;
+    margin-right: 2vw;
+    content: url("./images/grafika_4mobile.png");
+}
+
+.instruction .threeSteps #secondStep {
+    width: 27.5vw;
+    margin-right: 2vw;
+    content: url("./images/grafika_5mobile.png");
+}
+
+.instruction .threeSteps #thirdStep {
+    width: 27.5vw;
+    content: url("./images/grafika_6mobile.png");
 }
 
 .download {
@@ -315,6 +333,10 @@ ul .sixthPoint {
     background-size: 100%;
     height: 37vw;
     margin: 2vw 6vw 0vw 6vw;
+}
+
+.qa button {
+    height: 2vw;
 }
 
 .qa {
@@ -346,11 +368,8 @@ ul .sixthPoint {
     background-image: url('./images/button_down.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 1vw;
     margin-top: 1.4vw;
-    /* margin:2vw; */
     background-color: transparent;
-    /* display: flex; */
     float:right;
 }
 
@@ -379,7 +398,6 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    background-size: 100%;
-   height: 1vw;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -410,7 +428,6 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    background-size: 100%;
-   height: 1vw;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -440,7 +457,6 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    background-size: 100%;
-   height: 1vw;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -471,7 +487,6 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    background-size: 100%;
-   height: 1vw;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -502,7 +517,6 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    background-size: 100%;
-   height: 1vw;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -533,7 +547,6 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    background-size: 100%;
-   height: 1vw;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -564,7 +577,6 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    background-size: 100%;
-   height: 1vw;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -595,7 +607,6 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    background-size: 100%;
-   height: 1vw;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -626,7 +637,6 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    background-size: 100%;
-   height: 1vw;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -657,7 +667,6 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    background-size: 100%;
-   height: 1vw;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -688,7 +697,6 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    background-size: 100%;
-   height: 1vw;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -719,7 +727,6 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    background-size: 100%;
-   height: 1vw;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -750,7 +757,6 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    background-size: 100%;
-   height: 1vw;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -781,7 +787,6 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    background-size: 100%;
-   height: 1vw;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -812,7 +817,6 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    background-size: 100%;
-   height: 1vw;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -843,7 +847,6 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    background-size: 100%;
-   height: 1vw;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -861,6 +864,11 @@ ul .sixthPoint {
 /* Mobile styles */
 
 @media all and (max-width: 600px) {
+
+    h1, h2 {
+        font-weight: 400;
+    }
+
     button {
         font-size: 4vw;
     }
@@ -987,23 +995,39 @@ ul .sixthPoint {
     }
 
     .instruction {
-        /* background-image: url('./images/mobile_scroll.png'); */
         background-color: #f1f2f2;
-        background-repeat: no-repeat;
-        background-size: 200%;
-        background-position: left top;
-        height: 92vw;
+        height: 100vw;
         margin: -2vw 0vw;
-        /* overflow: auto; */
-        overflow-x: auto;
-        overflow-y: hidden; 
+        overflow-x:scroll;
         white-space: nowrap;
-        /* overflow-x: auto;  */
+
     }
 
-    .instruction img {
-        content: url("/images/phones.png");
+    .instruction .threeSteps {
         display: inline-block;
+        white-space: nowrap;
+        padding: 2vw;
+        margin: 0;
+    }
+
+    .instruction .threeSteps .phoneImage {
+        margin: 2vw;
+        display: inline-block;
+    }
+
+    .instruction .threeSteps #firstStep {
+        width: 54vw;
+        content: url("./images/grafika_4mobile.png");
+    }
+    
+    .instruction .threeSteps #secondStep {
+        width: 54vw;
+        content: url("./images/grafika_5mobile.png");
+    }
+    
+    .instruction .threeSteps #thirdStep {
+        width: 54vw;
+        content: url("./images/grafika_5mobile.png");
     }
 
     .instruction h2 {
@@ -1023,6 +1047,10 @@ ul .sixthPoint {
         background-size: 100%;
         height: 91vw;
         margin: 0vw;
+    }
+
+    .qa button {
+        height: 8vw;
     }
 
     .qa h1 {
@@ -1595,4 +1623,96 @@ ul .sixthPoint {
         margin-bottom: 6vw;
     }
 
+}
+
+@media all and (max-width: 300px) {
+    .qa button {
+        height:14vw;
+        background-size: 0.6vw;
+    }
+
+    .qa .qaOne {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaTwo {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaThree {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaFour {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaFive {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaSix {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaSeven {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaEight {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaNine {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaTen {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaEleven {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaTwelve {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaThirteen {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaFourteen {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaFiveteen {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaSixteen {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaSeventeen {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
 }
