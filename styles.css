@@ -1044,10 +1044,35 @@ ul .sixthPoint {
 
 
     .download {
-        background-image: url('./images/mobile_grafika_9.png');
+        background-image: url('./images/mobile_grafika_9space.png');
         height: 130vw;
         margin: 0vw;
         margin-top: 5vw;
+    }
+
+    .downloadButtons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .downloadButtons #dwn1btn {
+        background-image: url('./images/APP_STORE.png');
+        height: 16vw;
+        width: 36vw;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin: 106vw 4vw 4vw 0;
+        background-color: transparent;
+    }
+
+    .downloadButtons #dwn2btn {
+        background-image: url('./images/GOOGLE_PLAY.png');
+        height: 16vw;
+        width: 36vw;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin: 106vw 4vw 4vw 0;
+        background-color: transparent;
     }
 
     .youBuy {
