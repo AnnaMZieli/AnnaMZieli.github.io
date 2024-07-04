@@ -954,7 +954,7 @@ ul .sixthPoint {
 
     .benefitsVip {
         background-image: url('./images/vipBenefits_mobile.png');
-        height: 165vw;
+        height: 180vw;
         margin: 0vw 0vw;
         background-size: 100%;
     }
@@ -996,7 +996,7 @@ ul .sixthPoint {
 
     .instruction {
         background-color: #f1f2f2;
-        height: 100vw;
+        height: 104vw;
         margin: -2vw 0vw;
         overflow: hidden;
     }
@@ -1021,7 +1021,7 @@ ul .sixthPoint {
     
 
     .instruction .threeSteps .phoneImage {
-        margin: 0 2vw;
+        margin: 0 3vw;
         display: inline-block;
         vertical-align: top;
         width: 100vw;
