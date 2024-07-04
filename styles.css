@@ -285,7 +285,7 @@ ul .sixthPoint {
     background-color: #f1f2f2;
     background-repeat: no-repeat;
     background-size: 200%;
-    background-position: left top;
+    /* background-position: left top; */
     height: 50vw;
     margin: -2vw 0vw;
     white-space: nowrap;
@@ -998,41 +998,50 @@ ul .sixthPoint {
         background-color: #f1f2f2;
         height: 100vw;
         margin: -2vw 0vw;
-        overflow-x:scroll;
-        white-space: nowrap;
-
+        overflow: hidden;
     }
+
+    .instruction h2 {
+        margin: 2vw 1vw;
+    }
+
 
     .instruction .threeSteps {
-        display: inline-block;
+        justify-content:flex-start;
+        overflow-y: hidden;
         white-space: nowrap;
-        padding: 2vw;
-        margin: 0;
+        padding: 2vw 0;
+        margin: 1vw 4vw;
+        display: flex;
+        align-items: baseline;
+        /* -ms-overflow-style: none;
+        scrollbar-width: none; */
     }
 
+    
+
     .instruction .threeSteps .phoneImage {
-        margin: 2vw;
+        margin: 0 2vw;
         display: inline-block;
+        vertical-align: top;
+        width: 100vw;
     }
 
     .instruction .threeSteps #firstStep {
-        width: 54vw;
+        width: 58vw;
         content: url("./images/grafika_4mobile.png");
     }
     
     .instruction .threeSteps #secondStep {
-        width: 54vw;
+        width: 58vw;
         content: url("./images/grafika_5mobile.png");
     }
     
     .instruction .threeSteps #thirdStep {
-        width: 54vw;
-        content: url("./images/grafika_5mobile.png");
+        width: 58vw;
+        content: url("./images/grafika_6mobile.png");
     }
 
-    .instruction h2 {
-        margin-top: 2vw;
-    }
 
     .download {
         background-image: url('./images/mobile_grafika_9.png');
