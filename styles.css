@@ -1500,8 +1500,8 @@ ul .sixthPoint {
 
     .qa .qaThirteen {
         display: grid;
-        width: 70vw;
-        grid-template-columns: 8vw 56vw 6vw;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
         margin-top: 1vw;
         margin-bottom: 6vw;
         border-bottom: 0.1vw solid var(--gray);
