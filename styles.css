@@ -1085,6 +1085,10 @@ ul .sixthPoint {
         margin: 0vw;
     }
 
+    .qa {
+        margin: 1vw 1vw;
+    }
+
     .qa button {
         height: 8vw;
     }
@@ -1101,8 +1105,8 @@ ul .sixthPoint {
     
     .qa .qaOne {
         display: grid;
-        width: 70vw;
-        grid-template-columns: 8vw 56vw 6vw;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
         margin-bottom: 6vw;
         border-bottom: 0.1vw solid var(--gray);
     }
@@ -1133,8 +1137,8 @@ ul .sixthPoint {
 
     .qa .qaTwo {
         display: grid;
-        width: 70vw;
-        grid-template-columns: 8vw 56vw 6vw;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
         margin-top: 1vw;
         margin-bottom: 6vw;
         border-bottom: 0.1vw solid var(--gray);
@@ -1166,8 +1170,8 @@ ul .sixthPoint {
 
     .qa .qaThree {
         display: grid;
-        width: 70vw;
-        grid-template-columns: 8vw 56vw 6vw;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
         margin-top: 1vw;
         margin-bottom: 6vw;
         border-bottom: 0.1vw solid var(--gray);
@@ -1199,8 +1203,8 @@ ul .sixthPoint {
 
     .qa .qaFour {
         display: grid;
-        width: 70vw;
-        grid-template-columns: 8vw 56vw 6vw;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
         margin-top: 1vw;
         margin-bottom: 6vw;
         border-bottom: 0.1vw solid var(--gray);
@@ -1232,8 +1236,8 @@ ul .sixthPoint {
 
     .qa .qaFive {
         display: grid;
-        width: 70vw;
-        grid-template-columns: 8vw 56vw 6vw;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
         margin-top: 1vw;
         margin-bottom: 6vw;
         border-bottom: 0.1vw solid var(--gray);
@@ -1265,8 +1269,8 @@ ul .sixthPoint {
 
     .qa .qaSix {
         display: grid;
-        width: 70vw;
-        grid-template-columns: 8vw 56vw 6vw;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
         margin-top: 1vw;
         margin-bottom: 6vw;
         border-bottom: 0.1vw solid var(--gray);
@@ -1298,8 +1302,8 @@ ul .sixthPoint {
 
     .qa .qaSeven {
         display: grid;
-        width: 70vw;
-        grid-template-columns: 8vw 56vw 6vw;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
         margin-top: 1vw;
         margin-bottom: 6vw;
         border-bottom: 0.1vw solid var(--gray);
@@ -1331,8 +1335,8 @@ ul .sixthPoint {
 
     .qa .qaEight {
         display: grid;
-        width: 70vw;
-        grid-template-columns: 8vw 56vw 6vw;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
         margin-top: 1vw;
         margin-bottom: 6vw;
         border-bottom: 0.1vw solid var(--gray);
@@ -1364,8 +1368,8 @@ ul .sixthPoint {
     
     .qa .qaNine {
         display: grid;
-        width: 70vw;
-        grid-template-columns: 8vw 56vw 6vw;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
         margin-top: 1vw;
         margin-bottom: 6vw;
         border-bottom: 0.1vw solid var(--gray);
@@ -1397,8 +1401,8 @@ ul .sixthPoint {
 
     .qa .qaTen {
         display: grid;
-        width: 70vw;
-        grid-template-columns: 8vw 56vw 6vw;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
         margin-top: 1vw;
         margin-bottom: 6vw;
         border-bottom: 0.1vw solid var(--gray);
@@ -1430,8 +1434,8 @@ ul .sixthPoint {
 
     .qa .qaEleven {
         display: grid;
-        width: 70vw;
-        grid-template-columns: 8vw 56vw 6vw;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
         margin-top: 1vw;
         margin-bottom: 6vw;
         border-bottom: 0.1vw solid var(--gray);
@@ -1463,8 +1467,8 @@ ul .sixthPoint {
 
     .qa .qaTwelve {
         display: grid;
-        width: 70vw;
-        grid-template-columns: 8vw 56vw 6vw;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
         margin-top: 1vw;
         margin-bottom: 6vw;
         border-bottom: 0.1vw solid var(--gray);
@@ -1529,8 +1533,8 @@ ul .sixthPoint {
 
     .qa .qaFourteen {
         display: grid;
-        width: 70vw;
-        grid-template-columns: 8vw 56vw 6vw;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
         margin-top: 1vw;
         margin-bottom: 6vw;
         border-bottom: 0.1vw solid var(--gray);
@@ -1562,8 +1566,8 @@ ul .sixthPoint {
 
     .qa .qaFiveteen {
         display: grid;
-        width: 70vw;
-        grid-template-columns: 8vw 56vw 6vw;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
         margin-top: 1vw;
         margin-bottom: 6vw;
         border-bottom: 0.1vw solid var(--gray);
@@ -1595,8 +1599,8 @@ ul .sixthPoint {
 
     .qa .qaSixteen {
         display: grid;
-        width: 70vw;
-        grid-template-columns: 8vw 56vw 6vw;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
         margin-top: 1vw;
         margin-bottom: 6vw;
         border-bottom: 0.1vw solid var(--gray);
@@ -1628,8 +1632,8 @@ ul .sixthPoint {
 
     .qa .qaSeventeen {
         display: grid;
-        width: 70vw;
-        grid-template-columns: 8vw 56vw 6vw;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
         margin-top: 1vw;
         margin-bottom: 6vw;
         border-bottom: 0.1vw solid var(--gray);
