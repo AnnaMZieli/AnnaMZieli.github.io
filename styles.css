@@ -1,4 +1,4 @@
-@import url(https://use.typekit.net/aut2ygo.css);
+/* @import url(https://use.typekit.net/aut2ygo.css); */
 
 
 /* Default styles */
@@ -298,7 +298,6 @@ ul .sixthPoint {
     background-color: #f1f2f2;
     background-repeat: no-repeat;
     background-size: 200%;
-    /* background-position: left top; */
     height: 50vw;
     margin: -2vw 0vw;
     white-space: nowrap;
@@ -895,15 +894,9 @@ ul .sixthPoint {
         height: 110vw;
     }
 
-
-    /* .mainBox #mainButton:after {
-        visibility: hidden;
-    } */
-
     
     .mainBox #mainButton {
         visibility: hidden;
-        /* padding: 0.4em 1em; */
         float: left;
         margin-top: 87vw;
         margin-left: 4vw;
