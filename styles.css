@@ -85,12 +85,12 @@ button {
     font-weight: 700;
     border: none;  
     cursor: pointer;
-    font-size: 1.4vw;
+    font-size: 1.6vw;
 }
 
 
 .mainBox {
-    background-image: url('./images/Grafika_1.png');
+    background-image: url('./images/baner_MY_HEBE2.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 0;
@@ -104,8 +104,19 @@ button {
     background-repeat: no-repeat;
     padding: 0.6em 1.2em;
     float: right;
-    margin-top:32vw;
-    margin-right: 8vw;
+    margin-top:25vw;
+    margin-right: 5vw;
+    visibility: hidden;
+}
+
+.mainBox #mainButton:after {
+    content: "sprawdź";
+    text-transform: uppercase;
+    visibility: visible;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 0.4vw 7vw;
+    border-radius: 100px;
 }
 
 .benefitsStandard {
@@ -327,6 +338,10 @@ ul .sixthPoint {
     background-size: 100%;
     height: 38vw;
     margin: 2vw 6vw 0vw 6vw;
+}
+
+.downloadButtons {
+    visibility: hidden;
 }
 
 .youBuy {
@@ -877,14 +892,31 @@ ul .sixthPoint {
 
     .mainBox {
         background-image: url('./images/mobile_grafika_1.png');
-        height: 100vw;
+        height: 110vw;
     }
 
+
+    /* .mainBox #mainButton:after {
+        visibility: hidden;
+    } */
+
+    
     .mainBox #mainButton {
-        padding: 0.4em 1em;
+        visibility: hidden;
+        /* padding: 0.4em 1em; */
         float: left;
         margin-top: 87vw;
-        margin-left: 8.8vw;
+        margin-left: 4vw;
+    }
+
+    .mainBox #mainButton:after {
+        content: "dołącz teraz";
+        text-transform: uppercase;
+        visibility: visible;
+        background-color: var(--purple);
+        color: var(--white);
+        padding: 3vw 5vw;
+        border-radius: 0px;
     }
 
     .benefitsStandard {
@@ -948,7 +980,7 @@ ul .sixthPoint {
     }
 
     .statusMyHebe {
-        background-image: url('./images/20_diamentow.png');
+        background-image: url('./images/20_diamentow2.png');
         height: 56vw;
         margin: 8vw 0vw 0vw 0vw;
         background-size: 100%;
@@ -1055,25 +1087,28 @@ ul .sixthPoint {
     .downloadButtons {
         display: flex;
         justify-content: center;
+        visibility: visible;
     }
 
     .downloadButtons #dwn1btn {
         background-image: url('./images/APP_STORE.png');
+        border-radius: 0px;
         height: 16vw;
         width: 36vw;
         background-size: 100%;
         background-repeat: no-repeat;
-        margin: 110vw 4vw 4vw 0;
+        margin: 100vw 4vw 4vw 0;
         background-color: transparent;
     }
 
     .downloadButtons #dwn2btn {
         background-image: url('./images/GOOGLE_PLAY.png');
+        border-radius: 0px;
         height: 16vw;
         width: 36vw;
         background-size: 100%;
         background-repeat: no-repeat;
-        margin: 110vw 4vw 4vw 0;
+        margin: 100vw 4vw 4vw 0;
         background-color: transparent;
     }
 
