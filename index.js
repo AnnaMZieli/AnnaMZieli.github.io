@@ -43,22 +43,12 @@ buttons.forEach(btn => {
     const myInsertText17 = 'Przedłużenie statusu my hebe VIP nie powoduje zabrania diamentów z Twojego konta.';
 
     function toggleAnswears(button, answearPlace, answearText) {
-        const isMobile = window.innerWidth <= 600
+        // const isMobile = window.innerWidth <= 600
         if (answearPlace.innerHTML === answearText) {
             answearPlace.innerHTML = '';
-            if(isMobile) {
-                answearPlace.style.marginBottom = "6vw";
-            } else {
-                answearPlace.style.marginBottom = "0vw";
-            }
             button.style.backgroundImage = "url('./images/button_down.png')"
         } else {
             answearPlace.innerHTML = answearText;
-            if(isMobile) {
-                answearPlace.style.marginBottom = "6vw";
-            } else {
-                answearPlace.style.marginBottom = "3vw";
-            }
             button.style.backgroundImage = "url('./images/button_up.png')"
         }
     }
@@ -180,5 +170,5 @@ function btn17Click(){
     const answear17Place = document.getElementById("answear17");
     const answear17Text = myInsertText17;
 
-    toggleAnswears(btn16, answear17Place, answear17Text);
+    toggleAnswears(btn17, answear17Place, answear17Text);
 }

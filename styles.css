@@ -393,8 +393,9 @@ ul .sixthPoint {
     float:left;
 }
 
-#answear1 {
-    margin-bottom: 0vw;
+#answear1{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
 }
 
 .qa .qaSector2 {
@@ -423,8 +424,9 @@ ul .sixthPoint {
    float:left;
 }
 
-#answear2 {
-   margin-bottom: 0vw;
+#answear2{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
 }
 
 .qa .qaSector3 {
@@ -453,9 +455,11 @@ ul .sixthPoint {
    float:left;
 }
 
-#answear3 {
-   margin-bottom: 0vw;
+#answear3{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
 }
+
 .qa .qaSector4 {
     display: flex;
     justify-content: center;
@@ -482,8 +486,9 @@ ul .sixthPoint {
    float:left;
 }
 
-#answear4 {
-   margin-bottom: 0vw;
+#answear4{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
 }
 
 .qa .qaSector5 {
@@ -512,8 +517,9 @@ ul .sixthPoint {
    float:left;
 }
 
-#answear5 {
-   margin-bottom: 0vw;
+#answear5{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
 }
 
 .qa .qaSector6 {
@@ -542,8 +548,9 @@ ul .sixthPoint {
    float:left;
 }
 
-#answear6 {
-   margin-bottom: 0vw;
+#answear6{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
 }
 
 .qa .qaSector7 {
@@ -572,8 +579,9 @@ ul .sixthPoint {
    float:left;
 }
 
-#answear7 {
-   margin-bottom: 0vw;
+#answear7{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
 }
 
 .qa .qaSector8 {
@@ -602,8 +610,9 @@ ul .sixthPoint {
    float:left;
 }
 
-#answear8 {
-   margin-bottom: 0vw;
+#answear8{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
 }
 
 .qa .qaSector9 {
@@ -632,8 +641,9 @@ ul .sixthPoint {
    float:left;
 }
 
-#answear9 {
-   margin-bottom: 0vw;
+#answear9{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
 }
 
 .qa .qaSector10 {
@@ -662,8 +672,9 @@ ul .sixthPoint {
    float:left;
 }
 
-#answear10 {
-   margin-bottom: 0vw;
+#answear10{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
 }
 
 .qa .qaSector11 {
@@ -692,8 +703,9 @@ ul .sixthPoint {
    float:left;
 }
 
-#answear11 {
-   margin-bottom: 0vw;
+#answear11{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
 }
 
 .qa .qaSector12 {
@@ -722,8 +734,9 @@ ul .sixthPoint {
    float:left;
 }
 
-#answear12 {
-   margin-bottom: 0vw;
+#answear12{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
 }
 
 .qa .qaSector13 {
@@ -752,8 +765,9 @@ ul .sixthPoint {
    float:left;
 }
 
-#answear13 {
-   margin-bottom: 0vw;
+#answear13{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
 }
 
 .qa .qaSector14 {
@@ -781,9 +795,10 @@ ul .sixthPoint {
 .qa .qaFourteen h5, h6 {
    float:left;
 }
-
-#answear14 {
-   margin-bottom: 0vw;
+ 
+#answear14{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
 }
 
 .qa .qaSector15 {
@@ -812,8 +827,9 @@ ul .sixthPoint {
    float:left;
 }
 
-#answear15 {
-   margin-bottom: 0vw;
+#answear15{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
 }
 
 .qa .qaSector16 {
@@ -842,8 +858,9 @@ ul .sixthPoint {
    float:left;
 }
 
-#answear16 {
-   margin-bottom: 0vw;
+#answear16{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
 }
 
 .qa .qaSector17 {
@@ -872,10 +889,10 @@ ul .sixthPoint {
    float:left;
 }
 
-#answear17 {
-   margin-bottom: 0vw;
+#answear17{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
 }
-
 
 /* Mobile styles */
 
@@ -1160,7 +1177,8 @@ ul .sixthPoint {
     }
     
     #answear1 {
-        margin-bottom: 6vw;
+        margin-top: 2vw;
+        margin-bottom: 4vw;
     }
 
     .qa .qaTwo {
@@ -1193,7 +1211,8 @@ ul .sixthPoint {
     }
     
     #answear2 {
-        margin-bottom: 6vw;
+        margin-top: 2vw;
+        margin-bottom: 4vw;
     }
 
     .qa .qaThree {
@@ -1226,7 +1245,8 @@ ul .sixthPoint {
     }
 
     #answear3 {
-        margin-bottom: 6vw;
+        margin-top: 2vw;
+        margin-bottom: 4vw;
     }
 
     .qa .qaFour {
@@ -1259,7 +1279,8 @@ ul .sixthPoint {
     }
 
     #answear4 {
-        margin-bottom: 6vw;
+        margin-top: 2vw;
+        margin-bottom: 4vw;
     }
 
     .qa .qaFive {
@@ -1292,7 +1313,8 @@ ul .sixthPoint {
     }
 
     #answear5 {
-        margin-bottom: 6vw;
+        margin-top: 2vw;
+        margin-bottom: 4vw;
     }
 
     .qa .qaSix {
@@ -1325,7 +1347,8 @@ ul .sixthPoint {
     }
 
     #answear6 {
-        margin-bottom: 6vw;
+        margin-top: 2vw;
+        margin-bottom: 4vw;
     }
 
     .qa .qaSeven {
@@ -1358,7 +1381,8 @@ ul .sixthPoint {
     }
 
     #answear7 {
-        margin-bottom: 6vw;
+        margin-top: 2vw;
+        margin-bottom: 4vw;
     }
 
     .qa .qaEight {
@@ -1391,7 +1415,8 @@ ul .sixthPoint {
     }
 
     #answear8 {
-        margin-bottom: 6vw;
+        margin-top: 2vw;
+        margin-bottom: 4vw;
     }
     
     .qa .qaNine {
@@ -1424,7 +1449,8 @@ ul .sixthPoint {
     }
 
     #answear9 {
-        margin-bottom: 6vw;
+        margin-top: 2vw;
+        margin-bottom: 4vw;
     }
 
     .qa .qaTen {
@@ -1457,7 +1483,8 @@ ul .sixthPoint {
     }
 
     #answear10 {
-        margin-bottom: 6vw;
+        margin-top: 2vw;
+        margin-bottom: 4vw;
     }
 
     .qa .qaEleven {
@@ -1490,7 +1517,8 @@ ul .sixthPoint {
     }
 
     #answear11 {
-        margin-bottom: 6vw;
+        margin-top: 2vw;
+        margin-bottom: 4vw;
     }
 
     .qa .qaTwelve {
@@ -1523,7 +1551,8 @@ ul .sixthPoint {
     }
 
     #answear12 {
-        margin-bottom: 6vw;
+        margin-top: 2vw;
+        margin-bottom: 4vw;
     }
 
     .qa .qaThirteen {
@@ -1556,7 +1585,8 @@ ul .sixthPoint {
     }
 
     #answear13 {
-        margin-bottom: 6vw;
+        margin-top: 2vw;
+        margin-bottom: 4vw;
     }
 
     .qa .qaFourteen {
@@ -1589,7 +1619,8 @@ ul .sixthPoint {
     }
 
     #answear14 {
-        margin-bottom: 6vw;
+        margin-top: 2vw;
+        margin-bottom: 4vw;
     }
 
     .qa .qaFiveteen {
@@ -1622,7 +1653,8 @@ ul .sixthPoint {
     }
 
     #answear15 {
-        margin-bottom: 6vw;
+        margin-top: 2vw;
+        margin-bottom: 4vw;
     }
 
     .qa .qaSixteen {
@@ -1655,7 +1687,8 @@ ul .sixthPoint {
     }
 
     #answear16 {
-        margin-bottom: 6vw;
+        margin-top: 2vw;
+        margin-bottom: 4vw;
     }
 
     .qa .qaSeventeen {
@@ -1688,7 +1721,8 @@ ul .sixthPoint {
     }
 
     #answear17 {
-        margin-bottom: 6vw;
+        margin-top: 2vw;
+        margin-bottom: 4vw;
     }
 
 }
