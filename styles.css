@@ -98,27 +98,6 @@ button {
     height: 42vw;
 }
 
-.mainBox #mainButton {
-    color: #ffffff;  
-    background-color: var(--purple);
-    background-repeat: no-repeat;
-    padding: 0.6em 1.2em;
-    float: right;
-    margin-top:25vw;
-    margin-right: 5vw;
-    visibility: hidden;
-}
-
-.mainBox #mainButton:after {
-    content: "sprawdź";
-    text-transform: uppercase;
-    visibility: visible;
-    background-color: var(--black);
-    color: var(--white);
-    padding: 0.4vw 7vw;
-    border-radius: 100px;
-}
-
 .benefitsStandard {
     background-image: url('./images/image_benefits.png');
     background-repeat: no-repeat;
@@ -902,31 +881,9 @@ ul .sixthPoint {
         font-weight: 400;
     }
 
-    button {
-        font-size: 4vw;
-    }
-
     .mainBox {
         background-image: url('./images/mobile_grafika_1.png');
         height: 110vw;
-    }
-
-    
-    .mainBox #mainButton {
-        visibility: hidden;
-        float: left;
-        margin-top: 87vw;
-        margin-left: 4vw;
-    }
-
-    .mainBox #mainButton:after {
-        content: "dołącz teraz";
-        text-transform: uppercase;
-        visibility: visible;
-        background-color: var(--purple);
-        color: var(--white);
-        padding: 3vw 5vw;
-        border-radius: 0px;
     }
 
     .benefitsStandard {
