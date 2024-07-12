@@ -119,12 +119,12 @@ h6 {
 }
 
 button {
-    font-family: "myriad-pro", sans-serif, arial;
+    /* font-family: "myriad-pro", sans-serif, arial;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 700; */
     border: none;  
     cursor: pointer;
-    font-size: 1.6vw;
+    /* font-size: 1.6vw; */
 }
 
 
@@ -402,6 +402,7 @@ ul .sixthPoint {
     background-image: url('./images/button_down.png');
     background-repeat: no-repeat;
     /* background-size: 100%; */
+    border-radius: 0;
     margin-top: 1.4vw;
     background-color: transparent;
     float:right;
@@ -433,6 +434,7 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    /* background-size: 100%; */
+   border-radius: 0;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -464,6 +466,7 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    /* background-size: 100%; */
+   border-radius: 0;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -495,6 +498,7 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    /* background-size: 100%; */
+   border-radius: 0;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -557,6 +561,7 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    /* background-size: 100%; */
+   border-radius: 0;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -588,6 +593,7 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    /* background-size: 100%; */
+   border-radius: 0;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -619,6 +625,7 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    /* background-size: 100%; */
+   border-radius: 0;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -650,6 +657,7 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    /* background-size: 100%; */
+   border-radius: 0;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -681,6 +689,7 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    /* background-size: 100%; */
+   border-radius: 0;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -712,6 +721,7 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    /* background-size: 100%; */
+   border-radius: 0;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -743,6 +753,7 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    /* background-size: 100%; */
+   border-radius: 0;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -774,6 +785,7 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    /* background-size: 100%; */
+   border-radius: 0;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -805,6 +817,7 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    /* background-size: 100%; */
+   border-radius: 0;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -836,6 +849,7 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    /* background-size: 100%; */
+   border-radius: 0;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -867,6 +881,7 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    /* background-size: 100%; */
+   border-radius: 0;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
@@ -898,6 +913,7 @@ ul .sixthPoint {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
    /* background-size: 100%; */
+   border-radius: 0;
    margin-top: 1.4vw;
    background-color: transparent;
    float:right;
