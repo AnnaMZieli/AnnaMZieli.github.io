@@ -118,7 +118,7 @@ h6 {
     justify-content:center;
 }
 
-button {
+.landingContainer button {
     /* font-family: "myriad-pro", sans-serif, arial;
     font-style: normal;
     font-weight: 700; */
@@ -128,7 +128,7 @@ button {
 }
 
 
-.mainBox {
+.landingContainer .mainBox {
     background-image: url('./images/baner_MY_HEBE2.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -159,18 +159,18 @@ button {
     justify-content: flex-start;
 }
 
-ul {
+.landingContainer ul {
     margin-left: 0;
     padding-left: 3vw;
 }
 
-ul li {
+.landingContainer ul li {
     margin-bottom: 2vw;
     margin-left: 0vw;
     position: relative;
   }
 
-ul .firstPoint::before {
+.landingContainer ul .firstPoint::before {
     background-image: url('./images/li1.png');
     background-repeat: no-repeat;
     background-size:cover;
@@ -183,11 +183,11 @@ ul .firstPoint::before {
     width: 2.85vw;  
 }
 
-ul .firstPoint {
+.landingContainer ul .firstPoint {
     padding-left: 2vw;
 }
 
-ul .secondPoint::before {
+.landingContainer ul .secondPoint::before {
     background-image: url('./images/li2.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -200,11 +200,11 @@ ul .secondPoint::before {
     width: 3vw;  
 }
 
-ul .secondPoint {
+.landingContainer ul .secondPoint {
     padding-left: 2vw;
 }
 
-ul .thirdPoint::before {
+.landingContainer ul .thirdPoint::before {
     background-image: url('./images/li3.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -217,7 +217,7 @@ ul .thirdPoint::before {
     width: 3vw;  
 }
 
-ul .thirdPoint {
+.landingContainer ul .thirdPoint {
     padding-left: 2vw;
 }
 
@@ -252,7 +252,7 @@ ul .thirdPoint {
     justify-content: flex-start;
 }
 
-ul .fourthPoint::before {
+.landingContainer ul .fourthPoint::before {
     background-image: url('./images/li1.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -265,11 +265,11 @@ ul .fourthPoint::before {
     width: 2.85vw;  
 }
 
-ul .fourthPoint {
+.landingContainer ul .fourthPoint {
     padding-left: 2vw;
 }
 
-ul .fifthPoint::before {
+.landingContainer ul .fifthPoint::before {
     background-image: url('./images/li5.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -282,12 +282,12 @@ ul .fifthPoint::before {
     width: 3vw;  
 }
 
-ul .fifthPoint {
+.landingContainer ul .fifthPoint {
     padding-left: 2vw;
 }
 
 
-ul .sixthPoint::before {
+.landingContainer ul .sixthPoint::before {
     background-image: url('./images/li6.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -300,7 +300,7 @@ ul .sixthPoint::before {
     width: 3vw;  
 }
 
-ul .sixthPoint {
+.landingContainer ul .sixthPoint {
     padding-left: 2vw;
 }
 
@@ -996,17 +996,17 @@ ul .sixthPoint {
         font-size: 3.7vw;
     }
 
-    ul {
+    .landingContainer ul {
         margin-left: 4vw;
         padding-left: 8vw;
     }
 
-    ul li {
+    .landingContainer ul li {
         margin-top: 4vw;
         margin-bottom: 6vw;
     }
 
-    ul .firstPoint::before {
+    .landingContainer ul .firstPoint::before {
         height: 8vw;   
         width: 7.6vw;  
     }
@@ -1015,21 +1015,21 @@ ul .sixthPoint {
         padding-left: 8vw;
     }
 
-    ul .secondPoint::before {
+    .landingContainer ul .secondPoint::before {
         height: 8vw;      
         width: 8vw;  
     }
     
-    ul .secondPoint {
+    .landingContainer ul .secondPoint {
         padding-left: 8vw;
     }
 
-    ul .thirdPoint::before {
+    .landingContainer ul .thirdPoint::before {
         height: 8vw; 
         width: 8vw;  
     }
     
-    ul .thirdPoint {
+    .landingContainer ul .thirdPoint {
         padding-left: 8vw;
     }
 
@@ -1051,30 +1051,30 @@ ul .sixthPoint {
         margin-top: 0vw;
     }
 
-    ul .fourthPoint::before {
+    .landingContainer ul .fourthPoint::before {
         height: 8vw;   
         width: 7.6vw;  
     }
     
-    ul .fourthPoint {
+    .landingContainer ul .fourthPoint {
         padding-left: 8vw;
     }
 
-    ul .fifthPoint::before {
+    .landingContainer ul .fifthPoint::before {
         height: 8vw;   
         width: 8vw;  
     }
     
-    ul .fifthPoint {
+    .landingContainer ul .fifthPoint {
         padding-left: 8vw;
     }
 
-    ul .sixthPoint::before {
+    .landingContainer ul .sixthPoint::before {
         height: 8vw;   
         width: 8vw;  
     }
     
-    ul .sixthPoint {
+    .landingContainer ul .sixthPoint {
         padding-left: 8vw;
     }
 
