@@ -401,6 +401,7 @@ ul .sixthPoint {
 .qa .qaOne #btn1 {
     background-image: url('./images/button_down.png');
     background-repeat: no-repeat;
+    padding: 1em;
     /* background-size: 100%; */
     border-radius: 0;
     margin-top: 1.4vw;
@@ -433,6 +434,7 @@ ul .sixthPoint {
 .qa .qaTwo #btn2 {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
+   padding: 1em;
    /* background-size: 100%; */
    border-radius: 0;
    margin-top: 1.4vw;
@@ -465,6 +467,7 @@ ul .sixthPoint {
 .qa .qaThree #btn3 {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
+   padding: 1em;
    /* background-size: 100%; */
    border-radius: 0;
    margin-top: 1.4vw;
@@ -497,6 +500,7 @@ ul .sixthPoint {
 .qa .qaFour #btn4 {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
+   padding: 1em;
    /* background-size: 100%; */
    border-radius: 0;
    margin-top: 1.4vw;
@@ -529,6 +533,7 @@ ul .sixthPoint {
 .qa .qaFive #btn5 {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
+   padding: 1em;
    /* background-size: 100%; */
    margin-top: 1.4vw;
    background-color: transparent;
@@ -560,6 +565,7 @@ ul .sixthPoint {
 .qa .qaSix #btn6 {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
+   padding: 1em;
    /* background-size: 100%; */
    border-radius: 0;
    margin-top: 1.4vw;
@@ -592,6 +598,7 @@ ul .sixthPoint {
 .qa .qaSeven #btn7 {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
+   padding: 1em;
    /* background-size: 100%; */
    border-radius: 0;
    margin-top: 1.4vw;
@@ -624,6 +631,7 @@ ul .sixthPoint {
 .qa .qaEight #btn8 {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
+   padding: 1em;
    /* background-size: 100%; */
    border-radius: 0;
    margin-top: 1.4vw;
@@ -656,6 +664,7 @@ ul .sixthPoint {
 .qa .qaNine #btn9 {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
+   padding: 1em;
    /* background-size: 100%; */
    border-radius: 0;
    margin-top: 1.4vw;
@@ -688,6 +697,7 @@ ul .sixthPoint {
 .qa .qaTen #btn10 {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
+   padding: 1em;
    /* background-size: 100%; */
    border-radius: 0;
    margin-top: 1.4vw;
@@ -720,6 +730,7 @@ ul .sixthPoint {
 .qa .qaEleven #btn11 {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
+   padding: 1em;
    /* background-size: 100%; */
    border-radius: 0;
    margin-top: 1.4vw;
@@ -752,6 +763,7 @@ ul .sixthPoint {
 .qa .qaTwelve #btn12 {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
+   padding: 1em;
    /* background-size: 100%; */
    border-radius: 0;
    margin-top: 1.4vw;
@@ -784,6 +796,7 @@ ul .sixthPoint {
 .qa .qaThirteen #btn13 {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
+   padding: 1em;
    /* background-size: 100%; */
    border-radius: 0;
    margin-top: 1.4vw;
@@ -816,6 +829,7 @@ ul .sixthPoint {
 .qa .qaFourteen #btn14 {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
+   padding: 1em;
    /* background-size: 100%; */
    border-radius: 0;
    margin-top: 1.4vw;
@@ -848,6 +862,7 @@ ul .sixthPoint {
 .qa .qaFiveteen #btn15 {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
+   padding: 1em;
    /* background-size: 100%; */
    border-radius: 0;
    margin-top: 1.4vw;
@@ -880,6 +895,7 @@ ul .sixthPoint {
 .qa .qaSixteen #btn16 {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
+   padding: 1em;
    /* background-size: 100%; */
    border-radius: 0;
    margin-top: 1.4vw;
@@ -912,6 +928,7 @@ ul .sixthPoint {
 .qa .qaSeventeen #btn17 {
    background-image: url('./images/button_down.png');
    background-repeat: no-repeat;
+   padding: 1em;
    /* background-size: 100%; */
    border-radius: 0;
    margin-top: 1.4vw;
@@ -969,6 +986,14 @@ ul .sixthPoint {
         margin:0;
         padding:0;
         margin-right: 4vw;
+    }
+
+    .landingContainer h5 {
+        font-size: 3.7vw;
+    }
+
+    .landingContainer h6 {
+        font-size: 3.7vw;
     }
 
     ul {
