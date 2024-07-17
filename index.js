@@ -19,7 +19,7 @@ const btn17 = document.getElementById("btn17");
 const buttons = [btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn10, btn11, btn12, btn13, btn14, btn15, btn16, btn17]
 
 buttons.forEach(btn => {
-    btn.style.backgroundImage = "url('./images/button_down.png')";
+    btn.style.backgroundImage = "url('https://www.hebe.pl/on/demandware.static/-/Library-Sites-HebeSharedLibrary/pl_PL/v1720742560624/landing-myhebe2/images/button_down.png')";
 });
 
     
@@ -46,10 +46,10 @@ buttons.forEach(btn => {
         // const isMobile = window.innerWidth <= 600
         if (answearPlace.innerHTML === answearText) {
             answearPlace.innerHTML = '';
-            button.style.backgroundImage = "url('./images/button_down.png')"
+            button.style.backgroundImage = "url('https://www.hebe.pl/on/demandware.static/-/Library-Sites-HebeSharedLibrary/pl_PL/v1720742560624/landing-myhebe2/images/button_down.png')"
         } else {
             answearPlace.innerHTML = answearText;
-            button.style.backgroundImage = "url('./images/button_up.png')"
+            button.style.backgroundImage = "url('https://www.hebe.pl/on/demandware.static/-/Library-Sites-HebeSharedLibrary/pl_PL/v1720742560624/landing-myhebe2/images/button_up.png')"
         }
     }
     
