@@ -132,6 +132,8 @@ h6 {
     background-image: url('./images/baner_MY_HEBE2.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
+    border: none;  
+    cursor: pointer;
     margin: 0;
     padding: 0;
     height: 42vw;
@@ -141,6 +143,7 @@ h6 {
     background-image: url('./images/image_benefits.png');
     background-repeat: no-repeat;
     background-size: 100%;
+    border: none;  
     height: 40vw;
     margin: 2vw 6vw;
 }
@@ -963,12 +966,12 @@ h6 {
         margin-left: 8.8vw;
     }
 
-    .mainBox {
+    .landingContainer .mainBox {
         background-image: url('./images/mobile_grafika_1.png');
         height: 110vw;
     }
 
-    .benefitsStandard {
+    .landingContainer .benefitsStandard {
         background-image: url('./images/second_mobile_benefits.png');
         height: 160vw;
         margin: 0vw 0vw;
@@ -1094,7 +1097,6 @@ h6 {
         margin: 2vw 1vw;
     }
 
-
     .instruction .threeSteps {
         justify-content:flex-start;
         overflow-y: hidden;
@@ -1106,8 +1108,6 @@ h6 {
         /* -ms-overflow-style: none;
         scrollbar-width: none; */
     }
-
-    
 
     .instruction .threeSteps .phoneImage {
         margin: 0 3vw;
@@ -1139,10 +1139,14 @@ h6 {
         margin-top: 5vw;
     }
 
-    .downloadButtons {
+    .landingContainer .downloadButtons {
         display: flex;
         justify-content: center;
         visibility: visible;
+    }
+
+    .landingContainer .myDownloadBtns {
+        margin-top: 100vw;
     }
 
     .downloadButtons #dwn1btn {
@@ -1152,7 +1156,7 @@ h6 {
         width: 36vw;
         background-size: 100%;
         background-repeat: no-repeat;
-        margin: 100vw 4vw 4vw 0;
+        margin: 0vw 4vw 4vw 0;
         background-color: transparent;
     }
 
@@ -1163,7 +1167,7 @@ h6 {
         width: 36vw;
         background-size: 100%;
         background-repeat: no-repeat;
-        margin: 100vw 4vw 4vw 0;
+        margin: 0vw 4vw 4vw 0;
         background-color: transparent;
     }
 
