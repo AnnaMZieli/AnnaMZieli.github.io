@@ -949,6 +949,13 @@ h6 {
     margin-bottom: 2vw;
 }
 
+.landingContainer #showHide {
+    display: flex;
+    justify-content: center;
+    padding: 2vw;
+
+}
+
 /* Mobile styles */
 
 @media all and (max-width: 600px) {

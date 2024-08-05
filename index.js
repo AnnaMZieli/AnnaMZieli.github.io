@@ -15,6 +15,7 @@ const btn14 = document.getElementById("btn14");
 const btn15 = document.getElementById("btn15");
 const btn16 = document.getElementById("btn16");
 const btn17 = document.getElementById("btn17");
+const btnSH = document.getElementById("showHide")
 
 const buttons = [btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn10, btn11, btn12, btn13, btn14, btn15, btn16, btn17]
 
@@ -50,6 +51,34 @@ buttons.forEach(btn => {
         } else {
             answearPlace.innerHTML = answearText;
             button.style.backgroundImage = "url('https://www.hebe.pl/on/demandware.static/-/Library-Sites-HebeSharedLibrary/pl_PL/v1720742560624/landing-myhebe2/images/button_up.png')"
+        }
+    }
+
+    // function toggleQuestions(button, )
+
+    function buttonSHClick(){
+        const qa17 = document.querySelector(".qaSector17");
+        const qa16 = document.querySelector(".qaSector16");
+        const qa15 = document.querySelector(".qaSector15");
+        const qa14 = document.querySelector(".qaSector14");
+        const qa13 = document.querySelector(".qaSector13");
+        const qa12 = document.querySelector(".qaSector12");
+        const qa11 = document.querySelector(".qaSector11");
+        const qa10 = document.querySelector(".qaSector10");
+        const qa9 = document.querySelector(".qaSector9");
+        const qa8 = document.querySelector(".qaSector8");
+        const qa7 = document.querySelector(".qaSector7");
+        const qa6 = document.querySelector(".qaSector6");
+        const qa5 = document.querySelector(".qaSector5");
+
+        if(btnSH.value === "Show more"){
+            qa17.style.display = "flex";
+            btnSH.value = "Hide"
+            btnSH.innerHTML = "Hide"
+        } else {
+            qa17.style.display = "none";
+            btnSH.value = "Show more"
+            btnSH.innerHTML = "Show more"
         }
     }
     
