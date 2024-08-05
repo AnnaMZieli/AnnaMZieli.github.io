@@ -151,7 +151,7 @@ function btn9Click(){
 
 function btn10Click(){
     const answear10Place = document.getElementById("answear10");
-    const answear10Text = myInsertText8;
+    const answear10Text = myInsertText10;
 
     toggleAnswears(btn10, answear10Place, answear10Text);
 }
@@ -172,7 +172,7 @@ function btn12Click(){
 
 function btn13Click(){
     const answear13Place = document.getElementById("answear13");
-    const answear13Text = myInsertText12;
+    const answear13Text = myInsertText13;
 
     toggleAnswears(btn13, answear13Place, answear13Text);
 }
