@@ -76,12 +76,12 @@ buttons.forEach(btn => {
 
 
     function buttonSHClick() {
-        if (btnSH.innerHTML === "Show more") {
+        if (btnSH.innerHTML === "Pokaż więcej") {
             qaSectors.forEach(qa => qa.style.display = "flex");
-            btnSH.innerHTML = "Hide";
+            btnSH.innerHTML = "Pokaż mniej";
         } else {
             qaSectors.forEach(qa => qa.style.display = "none");
-            btnSH.innerHTML = "Show more";
+            btnSH.innerHTML = "Pokaż więcej";
         }
     }
     
