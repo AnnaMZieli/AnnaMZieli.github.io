@@ -10,6 +10,7 @@
     --white: #ffffff;
     --black: #000000;
     --gray: #b0b0ba;
+    --gray2:rgb(221, 221, 221);
 }
 
 body {
@@ -949,11 +950,21 @@ h6 {
     margin-bottom: 2vw;
 }
 
-.landingContainer #showHide {
+.landingContainer .showHideBtnSection #showHide {
+    padding: 1.5vw;
+    border-radius: 100px;
+    font-family: "myriad-pro", sans-serif, arial;
+    background-color: #f1d1e1;
+    font-size: 2vw;
+    font-weight: 700;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.landingContainer .showHideBtnSection {
     display: flex;
     justify-content: center;
-    padding: 2vw;
-
+    margin-bottom: 5vw;
 }
 
 /* Mobile styles */
@@ -1779,6 +1790,15 @@ h6 {
     #answear17 {
         margin-top: 2vw;
         margin-bottom: 4vw;
+    }
+
+    .landingContainer .showHideBtnSection #showHide {
+        padding: 3vw;
+        font-size: 4vw;
+    }
+
+    .landingContainer .showHideBtnSection {
+        margin-bottom: 10vw;
     }
 
 }
