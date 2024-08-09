@@ -402,8 +402,8 @@ body {
 
 .qa .qaOne {
     display: grid;
-    width: 70vw;
-    grid-template-columns: 6vw 60vw 4vw;
+    width: 86vw;
+    grid-template-columns: 8vw 70vw 8vw;
     margin-top: 6vw;
     border-bottom: 0.1vw solid var(--gray);
 }
@@ -435,8 +435,8 @@ body {
 
 .qa .qaTwo {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
    margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
@@ -468,8 +468,8 @@ body {
 
 .qa .qaThree {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
    margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
@@ -501,8 +501,8 @@ body {
 
 .qa .qaFour {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
    margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
@@ -534,8 +534,8 @@ body {
 
 .qa .qaFive {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
    margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
@@ -567,8 +567,8 @@ body {
 
 .qa .qaSix {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
    margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
@@ -600,8 +600,8 @@ body {
 
 .qa .qaSeven {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
    margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
@@ -633,8 +633,8 @@ body {
 
 .qa .qaEight {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
    margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
@@ -666,8 +666,8 @@ body {
 
 .qa .qaNine {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
    margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
@@ -699,8 +699,8 @@ body {
 
 .qa .qaTen {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
    margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
@@ -732,8 +732,8 @@ body {
 
 .qa .qaEleven {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
    margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
@@ -765,8 +765,8 @@ body {
 
 .qa .qaTwelve {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
    margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
@@ -798,8 +798,8 @@ body {
 
 .qa .qaThirteen {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
    margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
@@ -831,8 +831,8 @@ body {
 
 .qa .qaFourteen {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
    margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
@@ -864,8 +864,8 @@ body {
 
 .qa .qaFiveteen {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
    margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
@@ -897,8 +897,8 @@ body {
 
 .qa .qaSixteen {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
    margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
@@ -930,8 +930,8 @@ body {
 
 .qa .qaSeventeen {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
    margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
