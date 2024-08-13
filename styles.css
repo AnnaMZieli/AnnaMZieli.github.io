@@ -9,7 +9,7 @@
     --purple: #820080;
     --white: #ffffff;
     --black: #000000;
-    --gray: #b0b0ba;
+    --gray: #3f3f46;
     --grayPink: #f1d1e1;
 }
 
@@ -960,7 +960,7 @@ body {
     padding: 1.5vw;
     border-radius: 100px;
     font-family: "myriad-pro", sans-serif, arial;
-    background-color: var(--grayPink);
+    background-color: var(--black);
     font-size: 1.5vw;
     font-weight: 700;
     color: var(--white);
